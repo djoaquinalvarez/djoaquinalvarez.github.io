@@ -4,9 +4,10 @@
         <meta charset="UTF-8">
         <meta name="Description" content="Bienvenido a la lista de supermercado de Joaquin Alvarez">
         <meta name="robots" content="index,follow">
-        <title>Lista del super ❤</title> 
+        <title>Lista del super</title> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="referencia a CSS">
+        <link rel="icon" href="./favicon.png" type="image/png">
+
     </head>
 
     <body>
@@ -18,15 +19,15 @@
                     
                     <details>
                         <summary><b>Hiperlibertad</b></summary>
-                        <dd>Llená tu carrito desde casa. Retirá gratis por tu sucursal más cercana. Encontrá los mejores precios, la mejor financiación y ofertas exclusivas. <br>Catálogos Disponibles. Varios Medios De Pago. Promociones Disponibles. Áreas De Interés: Medios De Pago, Nuestras Sucursales. <br>Accede a nuestra <a href="https://www.hiperlibertad.com.ar/" target="_blank">página web oficial</a> para ver todo lo que tenemos para vos.</dd>
+                        <dd><small>Llená tu carrito desde casa. Retirá gratis8por tu sucursal más cercana. Encontrá los mejores precios, la mejor financiación y ofertas exclusivas. <br>Catálogos Disponibles. Varios Medios De Pago. Promociones Disponibles. Áreas De Interés: Medios De Pago, Nuestras Sucursales. <br>Accede a nuestra <a href="https://www.hiperlibertad.com.ar/" target="_blank"><b>página web oficial</b></a> para ver todo lo que tenemos para vos.</small></dd>
                     </details>
                     <details>
                         <summary><b>Chango mas</b></summary>
-                        <dd>¿Sabías que podés retirar tu pedido en 15 minutos ? Ahorrá tiempo. Hacé Tu Pedido Online!<br> Más rápido y mas fácil. Entrega en 24 hs. Minorista y mayorista. Envios Disponibles. Del celu a tu casa. <br>El mejor precio. Servicios: Supermercado Online, Productos de Almacén. <br>Presioná <a href=https://www.changomas.com.ar/ target="_blank">aquí</a> para acceder a nuestra página de ventas oficial.</dd>
+                        <dd><small>¿Sabías que podés retirar tu pedido en 15 minutos ? Ahorrá tiempo. Hacé Tu Pedido Online!<br> Más rápido y mas fácil. Entrega en 24 hs. Minorista y mayorista. Envios Disponibles. Del celu a tu casa. <br>El mejor precio. Servicios: Supermercado Online, Productos de Almacén. <br>Presioná <a href=https://www.changomas.com.ar/ target="_blank"><b>aquí</b></a> para acceder a nuestra página de ventas oficial.</small></dd>
                     </details>
                     <details>
                         <summary><b>Isis</b></summary>
-                        <dd>En esta página hemos reunido para usted toda la información que concierne a la entrada Mayorista <br> y minorista ISIS de la categoría Supermercado en Villa Maria</dd>
+                        <dd><small>En esta página hemos reunido para usted toda la información que concierne a la entrada Mayorista <br> y minorista ISIS de la categoría Supermercado en Villa Maria</small></dd>
                     </details>
                 </dl>
             </details>
@@ -34,7 +35,7 @@
 
                 <fieldset>
                     <legend>Seleccione en que supermercado va a realizar las compras:</legend>
-                    <select name="supers" id="">
+                    <select name="supers" id="" multiple >
                         <option value="Isis">Isis</option>
                         <option value="Chango mas">Chango mas</option>
                         <option value="HiperLibertad">HiperLibertad</option>
@@ -120,12 +121,57 @@
                         <label for="monto">
                             <span>¿Cuál fue el monto gastado?</span>
                             <input type="text" id="monto" placeholder="$5000"><br>
+                            
                         </label>
                         <button name="Refrescar" value="Refresh" type="reset">Refrescar</button>
                         <button name="Enviar" value="Send" type="submit" >Enviar</button>
                     </fieldset>
                 </form>
             </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4"><b><h3>Top de supermercados mas visitados</h3></b></th>
+                    </tr>
+                    <tr>
+                        <th colspan="1" rowspan="1">Nombre</th>
+                        <th colspan="1">Posicion</th>
+                        <th colspan="1">Referencias</th>
+                        <th colspan="1">Visitas mens.</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="1">Chango mas</td>
+                        <td colspan="1">Nro. 1</td>
+                        <td>1M</td>
+                        <td>1.6M</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">HiperLibertad</td>
+                        <td colspan="1">Nro. 2</td>
+                        <td>140K</td>
+                        <td>1.3M</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">Disco</td>
+                        <td colspan="1">Nro. 3</td>
+                        <td>1.3M</td>
+                        <td>1.0M</td>
+                    </tr>
+                    <tr>
+                        <td colspan="1">Almacor</td>
+                        <td colspan="1">Nro. 4</td>
+                        <td>190K</td>
+                        <td>900K</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4"><b>-------Acceda a nuestro top 100 en nuestra pagina web-----</b></td>
+                    </tr>
+                </tfoot>
+            </table>
             <aside>
                 <hr>
                 <h3><b>GRANDES OFERTAS</b></h3>
@@ -178,6 +224,7 @@
                             <button type="reset">Reiniciar</button>
                             <button type="submit">Enviar</button>
                         </p>
+                        <textarea name="message" id="message" cols="30" rows="10" maxlength="60" placeholder="Escriba algo que quiera comunicar al desarrollador..." spellcheck wrap="soft"></textarea>
                     </fieldset>
                 </form>
             </aside>
@@ -186,7 +233,7 @@
             <iframe src="https://htmlreference.io" frameborder="0" height="500" width="1500"></iframe>
         </div>
         <footer>
-            <a href="mailto:alvarezdjoaquin@gmail.com" target="_blank"><cite>Contactanos</cite></a>
+            <a href="mailto:alvarezdjoaquin@gmail.com" target="_blank"><cite><small>Contactanos</small></cite></a>
         </footer>
     </body>
 </html>
