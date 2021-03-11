@@ -1,0 +1,15 @@
+.title {
+    color: rgb(248, 95, 39);
+    font-style: italic;
+}
+
+.subtitles {
+    color: rgb(235, 122, 47);
+    font-size: 18px;
+}
+
+.items {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-style: normal;
+}
