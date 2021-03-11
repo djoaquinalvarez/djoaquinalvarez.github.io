@@ -1,28 +1,102 @@
 .title {
     color: rgb(255, 255, 255);
-    font-style: italic;
+    font: menu;
     background-color: rgb(30, 207, 7);
+    font-size: 30px;
+
 }
 
 .subtitles {
     color: rgb(255, 255, 255);
     font-size: 20px;
+    font: menu;
 }
 
 .items {
     color: rgb(0, 0, 0);
     font-size: 14px;
     font-style: normal;
+    font: menu;
 }
 
-.seleccion {
+.items a:hover {
+    color: rgb(255, 10, 2);
+}
+
+.items a:active {
+    color: chartreuse;
+}
+
+
+.fieldset {
     display: inline-block;
+    font-size: 16px;
+}
+
+.fieldset_leg {
+    font: menu;
+    font-size: 14px;
+}
+
+.fieldset_leg--opt {
+    font-size: 13px;
 }
 
 .details {
     background-color: rgba(171, 252, 164, 0.966);
+    font: menu;
 }
 
-.ul_categorias{
+.details_sum {
     background-color: rgba(171, 252, 164, 0.966);
+    font-size: 18px;
+}
+
+.details_sum--det {
+    background-color: rgb(224, 221, 221);
+    font-size: 15px;
+}
+
+.ul{
+    background-color: rgba(125, 221, 117, 0.966);
+}
+
+.ul_item {
+    font: menu;
+    font-size: 14px;
+    background-color: rgba(125, 221, 117, 0.966);
+}
+
+.ul_item--ref {
+    font-size: 12px;
+}
+
+.ul_item a:hover{
+    color: blue;
+}
+
+.ul_item a:active{
+    color: white;
+}
+
+.div {
+    display: inline-block;
+    font-size: 20px;
+    font: menu;
+}
+
+.div_s1 {
+    font-size: 15px;
+    font: menu;
+    
+}
+
+.div_s1--s2 {
+    font-size: 14px;
+}
+
+.aside {
+    font: menu;
+    font-size: 15px;
+    
 }

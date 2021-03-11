@@ -15,205 +15,206 @@
         <header>
             <h1 class="title">Lista del supermercado de Joaquin ✨</h1>
             <details open="true" class="details">
-                <summary class="subtitles"><b>Supermercados destacados</b></summary>
-                <dl>
+                <summary class="details_sum"><b>Supermercados destacados</b></summary>
+                <dl class="details_sum">
                     
-                    <details>
-                        <summary class="items"><b>Hiperlibertad</b></summary>
+                    <details class="details_sum--det">
+                        <summary><b>Hiperlibertad</b></summary>
                         <dd><small>Llená tu carrito desde casa. Retirá gratis8por tu sucursal más cercana. Encontrá los mejores precios, la mejor financiación y ofertas exclusivas. <br>Catálogos Disponibles. Varios Medios De Pago. Promociones Disponibles. Áreas De Interés: Medios De Pago, Nuestras Sucursales. <br>Accede a nuestra <a href="https://www.hiperlibertad.com.ar/" target="_blank"><b>página web oficial</b></a> para ver todo lo que tenemos para vos.</small></dd>
                     </details>
-                    <details>
-                        <summary class="items"><b>Chango mas</b></summary>
+                    <details class="details_sum--det">
+                        <summary><b>Chango mas</b></summary>
                         <dd><small>¿Sabías que podés retirar tu pedido en 15 minutos ? Ahorrá tiempo. Hacé Tu Pedido Online!<br> Más rápido y mas fácil. Entrega en 24 hs. Minorista y mayorista. Envios Disponibles. Del celu a tu casa. <br>El mejor precio. Servicios: Supermercado Online, Productos de Almacén. <br>Presioná <a href=https://www.changomas.com.ar/ target="_blank"><b>aquí</b></a> para acceder a nuestra página de ventas oficial.</small></dd>
                     </details>
-                    <details>
-                        <summary class="items"><b>Isis</b></summary>
+                    <details class="details_sum--det">
+                        <summary><b>Isis</b></summary>
                         <dd><small>En esta página hemos reunido para usted toda la información que concierne a la entrada Mayorista <br> y minorista ISIS de la categoría Supermercado en Villa Maria</small></dd>
                     </details>
                 </dl>
             </details>
             <div>
 
-                <fieldset class="seleccion">
-                    <legend >Seleccione en que supermercado va a realizar las compras:</legend>
-                    <select name="supers" id="" >
-                        <option value="Isis">Isis</option>
-                        <option value="Chango mas">Chango mas</option>
-                        <option value="HiperLibertad">HiperLibertad</option>
-                        <option value="Otro">Otro</option>
+                <fieldset class="fieldset">
+                    <legend class="fieldset_leg">Seleccione en que supermercado va a realizar las compras:</legend>
+                    <select name="supers" id="" class="fieldset_leg">
+                        <option value="Isis" class="fieldset_leg--opt">Isis</option>
+                        <option value="Chango mas" class="fieldset_leg--opt">Chango mas</option>
+                        <option value="HiperLibertad" class="fieldset_leg--opt">HiperLibertad</option>
+                        <option value="Otro" class="fieldset_leg--opt">Otro</option>
                     </select>
                 </fieldset>
-                <fieldset class="seleccion">
-                    <legend >¿Quién realizó las compras?</legend>
-                    <input list="Persona" placeholder="Escriba una persona">
+                <fieldset class="fieldset">
+                    <legend class="fieldset_leg">¿Quién realizó las compras?</legend>
+                    <input list="Persona" placeholder="Escriba una persona" class="fieldset_leg">
                     <datalist id="Persona" >
-                        <option value="Guillermo"></option>
-                        <option value="Juan">
-                        <option value="Joaquin"></option>
-                        <option value="Rodrigo"></option>
-                        <option value="Facundo"></option>
-                        <option value="Nicolas"></option>
+                        <option value="Guillermo" class="fieldset_leg--opt"></option>
+                        <option value="Juan" class="fieldset_leg--opt">
+                        <option value="Joaquin" class="fieldset_leg--opt"></option>
+                        <option value="Rodrigo" class="fieldset_leg--opt"></option>
+                        <option value="Facundo" class="fieldset_leg--opt"></option>
+                        <option value="Nicolas" class="fieldset_leg--opt"></option>
                     </datalist>
                 </fieldset>
             </div>
             <hr>
-            <ul class="ul_categorias">
-                <li class="items"><h4>Frutas</h4></li>
-                <ol>
-                    <a href="https://www.google.com/search?q=recetas+con+manzanas&oq=recetas+con+manzana&aqs=chrome.0.0i433j69i57j0l8.3143j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Manzana 🍎</abbr><input type="checkbox"></li></a>
+            <ul class="ul">
+                <li class="ul_item"><h4>Frutas</h4></li>
+                <ol class="ul_item">
+                    <a class="ul_item--ref" href="https://www.google.com/search?q=recetas+con+manzanas&oq=recetas+con+manzana&aqs=chrome.0.0i433j69i57j0l8.3143j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Manzana 🍎</abbr><input type="checkbox"></li></a>
                     <figure>
                         <img src="https://i.imgur.com/sJoG0rO.jpeg" alt="imagen de manzanas" width="500" height="200" preload="auto">
                         <figcaption>Es una imagen que muestra muchas manzanas rojas en exhibicion</figcaption>
                     </figure>
-                    <a href="https://www.google.com/search?sxsrf=ALeKk00drCw3vMO-UL0LbeiLFsfd-v-BfQ%3A1614646562508&ei=Io09YIrZHqK55OUPhZaM2Ac&q=recetas+con+banana&oq=recetas+con+banana&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoRCAAQsAMQigMQtwMQ5QIQiwM6BQgAELEDUI_JC1jbzAtgtM8LaAFwAngAgAGGAogB8AmSAQUwLjUuMpgBAKABAaoBB2d3cy13aXrIAQq4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwiK8q6Ws5DvAhWiHLkGHQULA3sQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Banana 🍌</abbr><input type="checkbox"></li></a>
+                    <a class="ul_item--ref" href="https://www.google.com/search?sxsrf=ALeKk00drCw3vMO-UL0LbeiLFsfd-v-BfQ%3A1614646562508&ei=Io09YIrZHqK55OUPhZaM2Ac&q=recetas+con+banana&oq=recetas+con+banana&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoRCAAQsAMQigMQtwMQ5QIQiwM6BQgAELEDUI_JC1jbzAtgtM8LaAFwAngAgAGGAogB8AmSAQUwLjUuMpgBAKABAaoBB2d3cy13aXrIAQq4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwiK8q6Ws5DvAhWiHLkGHQULA3sQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Banana 🍌</abbr><input type="checkbox"></li></a>
                     <figure>
                         <img src="https://i.imgur.com/P1ZhOGA.jpeg" alt="imagen de bananas"  width="500" height="200" preload="auto">
                     </figure>
-                    <a href="https://www.google.com/search?q=recetas+con+naranja&tbm=isch&ved=2ahUKEwjKg4jLrpDvAhUnBrkGHajWBMgQ2-cCegQIABAA&oq=recetas+con+naranja&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECCMQJzoFCAAQsQM6CAgAELEDEIMBOgQIABBDOgcIABCxAxBDUMy7XljIzl5gn9FeaABwAHgAgAGoAYgB2RGSAQQzLjE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Uog9YMqSM6eM5OUPqK2TwAw&bih=720&biw=768" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Naranja 🍊</abbr><input type="checkbox"></li></a>
+                    <a class="ul_item--ref" href="https://www.google.com/search?q=recetas+con+naranja&tbm=isch&ved=2ahUKEwjKg4jLrpDvAhUnBrkGHajWBMgQ2-cCegQIABAA&oq=recetas+con+naranja&gs_lcp=CgNpbWcQAzICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADoECCMQJzoFCAAQsQM6CAgAELEDEIMBOgQIABBDOgcIABCxAxBDUMy7XljIzl5gn9FeaABwAHgAgAGoAYgB2RGSAQQzLjE2mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=Uog9YMqSM6eM5OUPqK2TwAw&bih=720&biw=768" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Naranja 🍊</abbr><input type="checkbox"></li></a>
                     <figure>
                         <img src="https://i.imgur.com/PRtDuOq.jpeg" alt="imagen de naranjas" width="500" height="200" preload="auto">
                     </figure>
                 </ol>
-                <li class="items"><h4>Carnes</h4></li>
-                <ol>
-                    <a href ="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk037CUFcQ_SYVD47pQTOd3vXYObduw%3A1614646934558&ei=lo49YKeyIeu85OUPkqKrgAo&q=recetas+con+pollo&oq=recetas+con+pollo&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAELEDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoHCAAQhwIQFDoECCMQJ1C8CVj0FGCcGmgBcAJ4AIAB-gGIAcoKkgEFMS41LjKYAQCgAQGqAQdnd3Mtd2l6yAEKuAECwAEB&sclient=gws-wiz&ved=0ahUKEwin1eLHtJDvAhVrHrkGHRLRCqAQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Pollo 🍗</abbr><input type="checkbox"></li></a>
+                <li class="ul_item"><h4>Carnes</h4></li>
+                <ol class="ul_item">
+                    <a class="ul_item--ref" href ="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk037CUFcQ_SYVD47pQTOd3vXYObduw%3A1614646934558&ei=lo49YKeyIeu85OUPkqKrgAo&q=recetas+con+pollo&oq=recetas+con+pollo&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAELEDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoHCAAQhwIQFDoECCMQJ1C8CVj0FGCcGmgBcAJ4AIAB-gGIAcoKkgEFMS41LjKYAQCgAQGqAQdnd3Mtd2l6yAEKuAECwAEB&sclient=gws-wiz&ved=0ahUKEwin1eLHtJDvAhVrHrkGHRLRCqAQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Pollo 🍗</abbr><input type="checkbox"></li></a>
                     <figure>
                         <img src="https://i.imgur.com/Q0gfTWj.jpg" alt="imagen de pollos" width="500" height="200" preload="auto">
                     </figure>
-                    <a href="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk00aRBgo6KXcY6txjhgPCeVwSmMuSQ%3A1614646939897&ei=m449YNCbNo7C5OUP-sqLsAk&q=recetas+con+carne+molida&oq=recetas+con+carne+molida&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoRCAAQsAMQigMQtwMQ1AMQ5QI6EQgAELADEIoDELcDEOUCEIsDOggIABCxAxCDAToFCAAQsQM6CggAELEDEIMBEAo6BAgAEAo6BwgAELEDEAo6BAgAEA1QrdUDWM_4A2DE_ANoB3ACeACAAYcCiAGGF5IBBjMuMTMuM5gBAKABAaoBB2d3cy13aXrIAQq4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwiQ1ajKtJDvAhUOIbkGHXrlApYQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Carne Molida 🥓</abbr> <input type="checkbox"></li></a>
+                    <a class="ul_item--ref" href="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk00aRBgo6KXcY6txjhgPCeVwSmMuSQ%3A1614646939897&ei=m449YNCbNo7C5OUP-sqLsAk&q=recetas+con+carne+molida&oq=recetas+con+carne+molida&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoRCAAQsAMQigMQtwMQ1AMQ5QI6EQgAELADEIoDELcDEOUCEIsDOggIABCxAxCDAToFCAAQsQM6CggAELEDEIMBEAo6BAgAEAo6BwgAELEDEAo6BAgAEA1QrdUDWM_4A2DE_ANoB3ACeACAAYcCiAGGF5IBBjMuMTMuM5gBAKABAaoBB2d3cy13aXrIAQq4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwiQ1ajKtJDvAhUOIbkGHXrlApYQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Carne Molida 🥓</abbr> <input type="checkbox"></li></a>
                     <figure>
                         <img src="https://i.imgur.com/ajjppKg.jpeg" alt="Imagen de carne molida" width="500" height="200" preload="auto">
                     </figure>
-                    <a href="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk037cNREd0LUUW9ijTtRpospu56REw%3A1614647006506&ei=3o49YOerHsif5OUPk_mY2As&q=recetas+con+bifes+de+nalga&oq=recetas+con+bifes+de+nalga&gs_lcp=Cgdnd3Mtd2l6EAMyAggAOhEIABCwAxCKAxC3AxDUAxDlAjoUCAAQsAMQigMQtwMQ1AMQ5QIQiwM6BQgAELEDULOoohxY2byiHGDevqIcaAFwAngBgAHrAYgB4Q2SAQU3LjYuMpgBAKABAaoBB2d3cy13aXrIAQq4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwjnkorqtJDvAhXID7kGHZM8BrsQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Bides de Nalga 🥩</abbr> <input type="checkbox"></li></a>
+                    <a class="ul_item--ref" href="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk037cNREd0LUUW9ijTtRpospu56REw%3A1614647006506&ei=3o49YOerHsif5OUPk_mY2As&q=recetas+con+bifes+de+nalga&oq=recetas+con+bifes+de+nalga&gs_lcp=Cgdnd3Mtd2l6EAMyAggAOhEIABCwAxCKAxC3AxDUAxDlAjoUCAAQsAMQigMQtwMQ1AMQ5QIQiwM6BQgAELEDULOoohxY2byiHGDevqIcaAFwAngBgAHrAYgB4Q2SAQU3LjYuMpgBAKABAaoBB2d3cy13aXrIAQq4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwjnkorqtJDvAhXID7kGHZM8BrsQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Bides de Nalga 🥩</abbr> <input type="checkbox"></li></a>
                     <figure>
                         <img src="https://i.imgur.com/NPfWWRW.jpeg" alt="Imagen de bifes" width="500" height="200" preload="auto">
                     </figure>
                 </ol>
-                <li class="items"><h4>Verduras</h4></li>
-                <ol>
-                    <a href="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk01vzJ3flLeqtyMBui3zPMTmdToXpQ%3A1614706292639&ei=dHY-YMy6JqOW0AabvKGADg&q=recetas+con+limon&oq=recetas+con+limon&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoFCAAQsQM6BwgAEIcCEBRQu5cFWJudBWCAoQVoAXACeACAAeQBiAHjBpIBBTEuNC4xmAEAoAEBqgEHZ3dzLXdpesgBCrgBAsABAQ&sclient=gws-wiz&ved=0ahUKEwjMxPTXkZLvAhUjC9QKHRteCOAQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Limón 🍋</abbr> <input type="checkbox"></li></a>
+                <li class="ul_item"><h4>Verduras</h4></li>
+                <ol class="ul_item">
+                    <a class="ul_item--ref" href="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk01vzJ3flLeqtyMBui3zPMTmdToXpQ%3A1614706292639&ei=dHY-YMy6JqOW0AabvKGADg&q=recetas+con+limon&oq=recetas+con+limon&gs_lcp=Cgdnd3Mtd2l6EAMyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoFCAAQsQM6BwgAEIcCEBRQu5cFWJudBWCAoQVoAXACeACAAeQBiAHjBpIBBTEuNC4xmAEAoAEBqgEHZ3dzLXdpesgBCrgBAsABAQ&sclient=gws-wiz&ved=0ahUKEwjMxPTXkZLvAhUjC9QKHRteCOAQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Limón 🍋</abbr> <input type="checkbox"></li></a>
                     <figure>
                         <img src="https://i.imgur.com/vCzTWKP.jpg" alt="Imagen de limones" width="500" height="200" preload="auto">
                     </figure>
-                    <a href="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk02TMtrxZL3R7tsfxHTX3iYj1iUSbg%3A1614706380054&ei=zHY-YOXoAsaz5OUPpoqOoAU&q=recetas+con+zanahoria&oq=recetas+con+zanahoria&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAELEDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoRCAAQsAMQigMQtwMQ5QIQiwM6CAgAELEDEIMBUJiXAli-nwJg6aICaAJwAngBgAGAAogBkA2SAQUxLjcuMpgBAKABAaoBB2d3cy13aXrIAQq4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwjl_suBkpLvAhXGGbkGHSaFA1QQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Zanahoria 🥕</abbr><input type="checkbox"></li></a>
+                    <a class="ul_item--ref" href="https://www.google.com/search?bih=722&biw=1536&hl=es-419&sxsrf=ALeKk02TMtrxZL3R7tsfxHTX3iYj1iUSbg%3A1614706380054&ei=zHY-YOXoAsaz5OUPpoqOoAU&q=recetas+con+zanahoria&oq=recetas+con+zanahoria&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAELEDMgIIADICCAAyAggAMgIIADICCAAyAggAMgIIADICCAAyAggAOhQIABCwAxCKAxC3AxDUAxDlAhCLAzoRCAAQsAMQigMQtwMQ5QIQiwM6CAgAELEDEIMBUJiXAli-nwJg6aICaAJwAngBgAGAAogBkA2SAQUxLjcuMpgBAKABAaoBB2d3cy13aXrIAQq4AQLAAQE&sclient=gws-wiz&ved=0ahUKEwjl_suBkpLvAhXGGbkGHSaFA1QQ4dUDCA0&uact=5" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Zanahoria 🥕</abbr><input type="checkbox"></li></a>
                     <figure>
                         <img src="https://i.imgur.com/kUbRwpY.jpg" alt="Imagen de zanahorias" width="500" height="200" preload="auto">
                     </figure>
                 </ol>
             </ul>
-            <div>
+            <div class="div">
                 <hr>
-                <h3 class="title" class="seleccion">¡Antes de irte!</h3>
+                <div>
+                <h3 class="title" class="div_s1">¡Antes de irte!</h3>
             
                 <form action="">
-                    <fieldset class="seleccion">
-                        <label for="nombre">
+                    <fieldset  class="div_s1">
+                        <label for="nombre" class="div_s1--s2">
                             <span>¿Quién fue el que realizó las compras?</span>
                             <input type="text" id="nombre" placeholder="Nombre"> <br>
-                        </label>
+                        </label class="div_s1--s2">
                         <label for="fecha">
                             <span>¿Qué día fueron realizadas?</span>
                             <input type="date" id="fecha" placeholder="02/12/2000"> <br>
-                        </label>
-                        <label for="hora">
+                        </label >
+                        <label for="hora" class="div_s1--s2">
                             <span>¿A qué hora fueron realizadas?</span>
                             <input type="time" id="hora" placeholder="13:00"><br>
                         </label>
-                        <label for="monto">
+                        <label for="monto" class="div_s1--s2">
                             <span>¿Cuál fue el monto gastado?</span>
                             <input type="text" id="monto" placeholder="$5000"><br>
-                            
                         </label>
                         <button name="Refrescar" value="Refresh" type="reset">Refrescar</button>
                         <button name="Enviar" value="Send" type="submit" >Enviar</button>
                     </fieldset>
                 </form>
             </div>
-            <table class="seleccion">
-                <thead>
-                    <tr>
-                        <th colspan="4" class="title"><b><h3>Top de supermercados mas visitados</h3></b></th>
+            <table class="div">
+                <thead class="div_s1">
+                    <tr class="title">
+                        <th colspan="4"><b><h3>Top de supermercados mas visitados</h3></b></th>
                     </tr>
-                    <tr>
+                    <tr class="div_s1--s2">
                         <th colspan="1" rowspan="1">Nombre</th>
                         <th colspan="1">Posicion</th>
                         <th colspan="1">Referencias</th>
                         <th colspan="1">Visitas mens.</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
+                <tbody class="div_s1">
+                    <tr class="div_s1--s2">
                         <td colspan="1">Chango mas</td>
                         <td colspan="1">Nro. 1</td>
                         <td>1M</td>
                         <td>1.6M</td>
                     </tr>
-                    <tr>
+                    <tr class="div_s1--s2">
                         <td colspan="1">HiperLibertad</td>
                         <td colspan="1">Nro. 2</td>
                         <td>140K</td>
                         <td>1.3M</td>
                     </tr>
-                    <tr>
+                    <tr class="div_s1--s2">
                         <td colspan="1">Disco</td>
                         <td colspan="1">Nro. 3</td>
                         <td>1.3M</td>
                         <td>1.0M</td>
                     </tr>
-                    <tr>
+                    <tr class="div_s1--s2">
                         <td colspan="1">Almacor</td>
                         <td colspan="1">Nro. 4</td>
                         <td>190K</td>
                         <td>900K</td>
                     </tr>
                 </tbody>
-                <tfoot>
-                    <tr>
+                <tfoot class="div_s1">
+                    <tr class="div_s1--s2">
                         <td colspan="4"><b>-------Acceda a nuestro top 100 en nuestra pagina web-----</b></td>
                     </tr>
                 </tfoot>
             </table>
+            </div>
             <aside>
                 <hr>
                 <h3 class="title"><b>GRANDES OFERTAS</b></h3>
-                <p>No olvides que todos los martes en todos los supermercados de la zona hay grandes ofertas en productos seleccionados. <b>¡APROVECHALAS!</b></p>
+                <p class="aside">No olvides que todos los martes en todos los supermercados de la zona hay grandes ofertas en productos seleccionados. <b>¡APROVECHALAS!</b></p>
                 <audio src="https://soundcloud.com/joaquin-alvarez-687520215/audio" controls loop preload="auto"></audio>
-                <p><cite><b>Informacion para el usuario: </b></cite>Para poder descargar la lista de supermercado en su computadora, ejecute el comando <code>pip install now</code> en su linea de comandos.</p>
+                <p class="aside"><cite><b>Informacion para el usuario: </b></cite>Para poder descargar la lista de supermercado en su computadora, ejecute el comando <code>pip install now</code> en su linea de comandos.</p>
             </aside>
             <aside>
                 <form action="" name="sign_up" autocomplete="on">
-                    <fieldset>
-                        <legend><b>Registrate para tener mas beneficios</b></legend>
-                        <label>
-                            <p>Sexo</p>
-                            <input type="radio" name="sexo" value="masculino">
+                    <fieldset class="fieldset">
+                        <legend class="fieldset_leg"><b>Registrate para tener mas beneficios</b></legend>
+                        <label class="fieldset_leg">
+                            <p class="fieldset_leg--opt">Sexo</p>
+                            <input class="fieldset_leg--opt" type="radio" name="sexo" value="masculino">
                             Masculino
-                            <input type="radio" name="sexo" value="femenino">
+                            <input class="fieldset_leg--opt" type="radio" name="sexo" value="femenino">
                             Femenino
-                            <input type="radio" name="sexo" value="otro">
+                            <input class="fieldset_leg--opt" type="radio" name="sexo" value="otro">
                             Otro
                         </label>
-                        <label>
-                            <p>Edad</p>
+                        <label class="fieldset_leg">
+                            <p class="fieldset_leg--opt">Edad</p>
                             <input type="number" name="edad" placeholder="Ej.: 18">
                         </label>
-                        <label>
+                        <label class="fieldset_leg--opt" >
                             <p>Email</p>
                             <input type="email" name="email" placeholder="Ej.: alvarezdjoaquin@gmail.com">
                         </label>
-                        <label>
+                        <label class="fieldset_leg--opt">
                             <p>Numero telefonico</p>
                             <input type="tel" name="telefono" placeholder="Ej.: 3534206584">
                         </label>
-                        <label>
+                        <label class="fieldset_leg--opt">
                             <p>Contrasena</p>
                             <input type="password" name="password">
                         </label>
-                        <label>
+                        <label class="fieldset_leg--opt">
                             <p>Confirma la Contrasena</p>
                             <input type="password" name="password">
                         </label>
-                        <label for="">
+                        <label for="" class="fieldset_leg--opt">
                             <br>
                             <br>
                             <input type="checkbox" name="terminos">
@@ -221,10 +222,10 @@
                         </label>
                         <br>
                         <p>
-                            <button type="reset">Reiniciar</button>
-                            <button type="submit">Enviar</button>
+                            <button type="reset" class="fieldset_leg--opt">Reiniciar</button>
+                            <button type="submit" class="fieldset_leg--opt">Enviar</button>
                         </p>
-                        <textarea name="message" id="message" cols="30" rows="10" maxlength="60" placeholder="Escriba algo que quiera comunicar al desarrollador..." spellcheck wrap="soft"></textarea>
+                        <textarea class="fieldset_leg--opt" name="message" id="message" cols="30" rows="10" maxlength="60" placeholder="Escriba algo que quiera comunicar al desarrollador..." spellcheck wrap="soft"></textarea>
                     </fieldset>
                 </form>
             </aside>
