@@ -17,6 +17,7 @@
     font-size: 14px;
     font-style: normal;
     font: menu;
+    list-style:none;
 }
 
 .items a:hover {
@@ -57,23 +58,36 @@
     font-size: 15px;
 }
 
+.details a{
+    text-decoration: none;
+}
+
 .ul{
-    background-color: rgba(125, 221, 117, 0.966);
+    background-color: rgb(154, 252, 145);
+    font:small-caption;
+    font-size: 34px;
+    padding: 0px;
 }
 
 .ul_item {
-    font: menu;
-    font-size: 14px;
-    background-color: rgba(125, 221, 117, 0.966);
+    background-color: rgb(30, 207, 7);
+    color: white;
 }
 
 .ul_item--ref {
     font-size: 12px;
+    text-decoration: none;
+    background-color: rgb(154, 252, 145);
+}
+
+.ul_item a {
+    text-decoration: none;
 }
 
 .ul_item a:hover{
     color: blue;
 }
+
 
 .ul_item a:active{
     color: white;
@@ -98,5 +112,5 @@
 .aside {
     font: menu;
     font-size: 15px;
-    
+
 }
