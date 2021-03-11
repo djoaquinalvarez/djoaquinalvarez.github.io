@@ -1,15 +1,28 @@
 .title {
-    color: rgb(248, 95, 39);
+    color: rgb(255, 255, 255);
     font-style: italic;
+    background-color: rgb(30, 207, 7);
 }
 
 .subtitles {
-    color: rgb(235, 122, 47);
-    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
 }
 
 .items {
     color: rgb(0, 0, 0);
     font-size: 14px;
     font-style: normal;
+}
+
+.seleccion {
+    display: inline-block;
+}
+
+.details {
+    background-color: rgba(171, 252, 164, 0.966);
+}
+
+.ul_categorias{
+    background-color: rgba(171, 252, 164, 0.966);
 }

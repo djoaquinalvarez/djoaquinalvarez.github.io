@@ -14,7 +14,7 @@
     <body>
         <header>
             <h1 class="title">Lista del supermercado de Joaquin ✨</h1>
-            <details open="true">
+            <details open="true" class="details">
                 <summary class="subtitles"><b>Supermercados destacados</b></summary>
                 <dl>
                     
@@ -34,8 +34,8 @@
             </details>
             <div>
 
-                <fieldset>
-                    <legend>Seleccione en que supermercado va a realizar las compras:</legend>
+                <fieldset class="seleccion">
+                    <legend >Seleccione en que supermercado va a realizar las compras:</legend>
                     <select name="supers" id="" >
                         <option value="Isis">Isis</option>
                         <option value="Chango mas">Chango mas</option>
@@ -43,11 +43,11 @@
                         <option value="Otro">Otro</option>
                     </select>
                 </fieldset>
-                <fieldset>
-                    <legend>¿Quién realizó las compras?</legend>
+                <fieldset class="seleccion">
+                    <legend >¿Quién realizó las compras?</legend>
                     <input list="Persona" placeholder="Escriba una persona">
-                    <datalist id="Persona">
-                        <option value="Guillermo">Guillermo</option>
+                    <datalist id="Persona" >
+                        <option value="Guillermo"></option>
                         <option value="Juan">
                         <option value="Joaquin"></option>
                         <option value="Rodrigo"></option>
@@ -57,7 +57,7 @@
                 </fieldset>
             </div>
             <hr>
-            <ul>
+            <ul class="ul_categorias">
                 <li class="items"><h4>Frutas</h4></li>
                 <ol>
                     <a href="https://www.google.com/search?q=recetas+con+manzanas&oq=recetas+con+manzana&aqs=chrome.0.0i433j69i57j0l8.3143j0j7&sourceid=chrome&ie=UTF-8" target="_blank"><li><abbr title="Toque aquí para acceder a recetas con este artículo">Manzana 🍎</abbr><input type="checkbox"></li></a>
@@ -103,10 +103,10 @@
             </ul>
             <div>
                 <hr>
-                <h3 class="title">¡Antes de irte!</h3>
+                <h3 class="title" class="seleccion">¡Antes de irte!</h3>
             
                 <form action="">
-                    <fieldset>
+                    <fieldset class="seleccion">
                         <label for="nombre">
                             <span>¿Quién fue el que realizó las compras?</span>
                             <input type="text" id="nombre" placeholder="Nombre"> <br>
@@ -129,7 +129,7 @@
                     </fieldset>
                 </form>
             </div>
-            <table>
+            <table class="seleccion">
                 <thead>
                     <tr>
                         <th colspan="4" class="title"><b><h3>Top de supermercados mas visitados</h3></b></th>
