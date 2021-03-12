@@ -3,6 +3,9 @@
     font: menu;
     background-color: rgb(30, 207, 7);
     font-size: 30px;
+    margin: 10px;
+    width: 100%;
+
 
 }
 
@@ -72,12 +75,16 @@
 .ul_item {
     background-color: rgb(30, 207, 7);
     color: white;
+    margin: 0px;
+    padding: 0px 45%;
+    
 }
 
-.ul_item--ref {
+.ul_item--ref{
     font-size: 12px;
     text-decoration: none;
     background-color: rgb(154, 252, 145);
+    content: 500px;
 }
 
 .ul_item a {
